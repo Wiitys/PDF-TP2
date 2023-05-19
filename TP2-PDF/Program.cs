@@ -23,8 +23,7 @@ namespace TP2_PDF
             P1.Ajout_de_poule("Mira", "Marans", 1.0, Taille.S);
             P1.Affichage_poule_du_poulailler();
             test=P1.pourcentage_taille_poule_du_poulailler(Taille.S);
-            Console.Write(String.Format("{0:0.00}",test));
-            Console.WriteLine("%");
+            Console.WriteLine(String.Format("{0:0.00}",test));
             P1.Supprimer_poule_poulailler(1);
             P1.Affichage_poule_du_poulailler();
         }
